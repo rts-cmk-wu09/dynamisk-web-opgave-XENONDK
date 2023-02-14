@@ -1,0 +1,12 @@
+section[hero] {
+    position: relative;
+}
+
+section div {
+    max-width: 400px;
+    min-height: 400px;
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.223);
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
