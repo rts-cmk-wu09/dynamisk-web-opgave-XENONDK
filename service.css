@@ -1,0 +1,30 @@
+.services{
+    margin-top: 180px;
+    gap: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.services div{
+    max-width: 25%;
+    
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.services div img{
+    width: 100%;
+}
+
+.services div p{
+    font-size: 19px;
+}
+
+.services div a{
+    color: orange;
+    text-decoration: none;
+    font-size: 23px;
+    
+}

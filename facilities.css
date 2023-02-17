@@ -1,0 +1,35 @@
+.facilities{
+    display: grid;
+    grid-template-rows: 50-px 1fr;
+    gap: 89px;
+    margin-top: 100px;
+    padding: 35px
+}
+
+.facilities div{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-row-start: 2;
+    gap: 10px;
+}
+
+.facilities h2{
+    grid-column-start:1;
+    grid-column-end: 4;
+    font-size: 50px;
+    }
+
+.facilities div h1{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.facilities div p{
+    font-size: 22px;
+}
+
+.facilities div img{
+    width: 70px;
+    padding: 16px;
+}

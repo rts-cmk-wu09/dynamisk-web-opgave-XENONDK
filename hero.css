@@ -1,0 +1,23 @@
+.hero {
+    position: relative;
+}
+
+.hero div {
+    max-width: 400px;
+    min-height: 300px;
+    box-shadow: 10px 10px 10px 10px #0000005f;
+    background-color: white;
+    position: absolute;
+    top: 70%;
+    left: 80px;
+    padding: 16px;
+}
+
+.hero div h1{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.hero div p{
+    font-size: 20px;
+}
